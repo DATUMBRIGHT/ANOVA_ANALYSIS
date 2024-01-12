@@ -21,3 +21,8 @@ NORMALITY We check this using QQ-plots,HISTOGRAMS and SHAPIRO WILK TEST
 
 HOMOGENEITY IN VARIABILITY CHECK
 This is checked with boxplots,levine and barlet test
+
+In summary, the Tukey HSD test is identifying which specific pairwise comparisons are statistically different after finding a significant result in the ANOVA. In this case, it suggests that there is a significant difference between treatdiff_1 and treatdiff_3, but not between the other pairs.
+
+Conclusion
+Null Hypothesis (H0): The null hypothesis assumes that there is no significant difference in means among the groups. Alternative Hypothesis (H1): The alternative hypothesis suggests that there is a significant difference in means among the groups. p-value (PR(>F)): If the p-value is less than the chosen significance level (commonly 0.05), you would reject the null hypothesis. In this case, the p-value is 0.046069, which is less than 0.05. Therefore, you would reject the null hypothesis. Conclusion: There is evidence to suggest that there are statistically significant differences in means among the treatment groups.
